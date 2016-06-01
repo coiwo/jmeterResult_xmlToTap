@@ -15,7 +15,7 @@
 <httpSample t="92" lt="92" ts="1464729814274" s="true" lb="Test_Case2" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="382">
   <assertionResult>
     <name>Response Assertion-ResponseCode</name>
-    <failure>false</failure>
+    <failure>true</failure>
     <error>false</error>
   </assertionResult>
   <assertionResult>
@@ -40,7 +40,7 @@
   <assertionResult>
     <name>Response Assertion-ResponseCode</name>
     <failure>false</failure>
-    <error>false</error>
+    <error>true</error>
   </assertionResult>
   <assertionResult>
     <name>Response Assertion-TextResponse</name>

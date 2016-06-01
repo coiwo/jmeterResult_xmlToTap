@@ -50,7 +50,7 @@ public class xmlToTap {
 					        String errorCheck= eElement.getElementsByTagName("error").item(temp2).getTextContent();
 					        if(failureCheck.equals("true")||errorCheck.equals("true")){
 					        	resultCheck=false;
-					        	break;
+					        	//break;
 					        }
 					        if(resultCheck==false){
 					        	resultLine="not ok 1  ";

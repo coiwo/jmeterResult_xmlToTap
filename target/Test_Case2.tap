@@ -2,6 +2,6 @@ TAP version 13
 1..1
 testCase: Test_Case2
 name: Response Assertion-ResponseCode
-failure: false
+failure: true
 error: false
-ok 0  - Test_Case2
+not ok 1  - Test_Case2
