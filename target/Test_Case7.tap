@@ -1,7 +1,0 @@
-TAP version 13
-1..1
-testCase: Test_Case7
-name: Response Assertion-ResponseCode
-failure: false
-error: false
-ok 0  - Test_Case7

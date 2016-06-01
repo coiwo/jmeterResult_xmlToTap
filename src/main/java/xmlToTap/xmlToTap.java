@@ -9,13 +9,18 @@ import org.w3c.dom.Node;
 import org.w3c.dom.Element;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Properties;
 public class xmlToTap {
 	public static void main(String argv[]) throws IOException {
-
+		Properties prop = new Properties();
+		prop.load(new FileInputStream("input/config.properties"));
+		String inputFile = prop.getProperty("inputFile");
+		String outputDir = prop.getProperty("outPutDir");
 	       try {
-	        File fXmlFile = new File("input/testResults.xml");
+	        File fXmlFile = new File(inputFile);
 	        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 	        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 	        Document doc = dBuilder.parse(fXmlFile); 
@@ -34,7 +39,7 @@ public class xmlToTap {
 			        Element eElement = (Element) nNode; 
 			        System.out.println("testCase: " + eElement.getAttribute("lb"));
 			      //create a tap file:
-	            		PrintWriter out = new PrintWriter("target/"+eElement.getAttribute("lb")+".tap");
+	            		PrintWriter out = new PrintWriter(outputDir+eElement.getAttribute("lb")+".tap");
 	            		out.println("TAP version 13");
 	            		out.println("1..1");
 	            		out.println("testCase: " + eElement.getAttribute("lb"));
