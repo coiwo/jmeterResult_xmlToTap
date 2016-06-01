@@ -30,5 +30,10 @@ From JMeter:
 
 Please follow link https://wiki.jenkins-ci.org/display/JENKINS/Integrating+TestLink++Jenkins++JMeter for more detail instruction.
 
+For direct use:
+1. copy xmlToTap folder to your local desktop.
+2. configure the input/config.properties file for input/output directory.
+3. run xmlToTap.bat 
+
 
 http://stackoverflow.com/questions/37308866/integration-issue-with-testlink-jenkins-and-jmeter
