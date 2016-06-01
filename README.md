@@ -31,3 +31,4 @@ From JMeter:
 Please follow link https://wiki.jenkins-ci.org/display/JENKINS/Integrating+TestLink++Jenkins++JMeter for more detail instruction.
 
 
+http://stackoverflow.com/questions/37308866/integration-issue-with-testlink-jenkins-and-jmeter
