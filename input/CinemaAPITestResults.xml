@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="102" lt="102" s="true" lb="api-auth" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="424">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="40" lt="40" s="true" lb="api-auth" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="342">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="46" lt="18" s="true" lb="JDBC Request_Ingest" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="667"/>
+<sample t="14" lt="0" s="true" lb="JDBC Request_Packages" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="15244"/>
+<sample t="5" lt="0" s="true" lb="JDBC Request_Packages_UUID_Extract" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="383"/>
+<sample t="4" lt="0" s="true" lb="JDBC Request_Transmissions" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3309"/>
+<sample t="4" lt="0" s="true" lb="JDBC Request_Command" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3059"/>
+<sample t="8" lt="0" s="true" lb="JDBC Request_Sites" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="5133"/>
+<sample t="4" lt="0" s="true" lb="JDBC Request_fazzt_txMode" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="2320"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_fazzt_queues" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3939"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_Transmissions_queueId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="16"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Transmissions_modeId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="15"/>
+<sample t="4" lt="0" s="true" lb="JDBC Request_Ingest_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="153"/>
+<sample t="5" lt="0" s="true" lb="JDBC Request_Transmissions_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="211"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_Command_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="179"/>
+<sample t="4" lt="0" s="true" lb="JDBC Request_Packages_active" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="642"/>
+<sample t="5" lt="0" s="true" lb="JDBC Request_transmission_packageId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="272"/>
+<httpSample t="20" lt="20" s="true" lb="SM_Test_ingest-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1497">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="4" lt="0" s="true" lb="JDBC Request_Ingest" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="667"/>
+<sample t="7" lt="0" s="true" lb="JDBC Request_Packages" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="15244"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Packages_UUID_Extract" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="383"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Transmissions" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3309"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_Command" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3059"/>
+<sample t="5" lt="0" s="true" lb="JDBC Request_Sites" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="5133"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_fazzt_txMode" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="2320"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_fazzt_queues" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3939"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Transmissions_queueId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="16"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Transmissions_modeId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="15"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Ingest_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="153"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Transmissions_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="211"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Command_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="179"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Packages_active" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="642"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_transmission_packageId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="272"/>
+<httpSample t="16" lt="16" s="true" lb="SM_Test_ingest-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1440">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="18" lt="18" s="true" lb="SM_Test_package-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="884">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="15" lt="15" s="true" lb="SM_Test_package-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1274">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="62" lt="62" s="true" lb="SM_Test_transmission-list-queue" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1564">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="63" lt="63" s="true" lb="SM_Test_transmission-list-mode" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1080">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="30" lt="30" s="true" lb="SM_Test_transmission-packages" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="834">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="112" lt="112" s="true" lb="SM_Test_transmission-locations" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="770">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="22" lt="22" s="true" lb="SM_Test_transmission-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1603">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="12" lt="12" s="true" lb="SM_Test_transmission-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1154">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="39" lt="39" s="true" lb="SM_Test_command-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1143">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="21" lt="21" s="true" lb="SM_Test_command-packages" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="326">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="46" lt="46" s="true" lb="SM_Test_command-locations" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="546">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="31" lt="31" s="true" lb="SM_Test_command-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1119">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="33" lt="33" s="true" lb="SM_Test_site-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="23904">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="11" lt="11" s="true" lb="SM_Test_site-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="600">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="97" lt="97" s="true" lb="SM_Test_group-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1467">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" lt="10" s="false" lb="SM_Test_ingest-submit" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="493">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="9" lt="9" s="false" lb="SM_Test_transmission-submit" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="431">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="137" lt="137" s="true" lb="SM_Test_command-submit" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="360">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="11" lt="11" s="false" lb="SM_Test_ingest-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="414">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="39" lt="39" s="true" lb="SM_Test_package-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="324">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="16" lt="16" s="false" lb="SM_Test_command-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="412">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="17" lt="17" s="false" lb="SM_Test_transmission-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="427">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="17" lt="17" s="false" lb="SM_Test_transmission-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="427">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="83" lt="82" s="true" lb="api-auth" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="424">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="39" lt="39" s="true" lb="api-auth" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="342">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="44" lt="17" s="true" lb="JDBC Request_Ingest" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="667"/>
+<sample t="17" lt="0" s="true" lb="JDBC Request_Packages" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="15264"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Packages_UUID_Extract" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="383"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_Transmissions" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3309"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_Command" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3059"/>
+<sample t="12" lt="1" s="true" lb="JDBC Request_Sites" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="5133"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_fazzt_txMode" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="2320"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_fazzt_queues" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3939"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Transmissions_queueId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="16"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Transmissions_modeId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="15"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_Ingest_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="153"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Transmissions_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="211"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Command_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="179"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Packages_active" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="605"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_transmission_packageId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="272"/>
+<httpSample t="25" lt="25" s="true" lb="SM_Test_ingest-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1497">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Ingest" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="667"/>
+<sample t="5" lt="0" s="true" lb="JDBC Request_Packages" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="15264"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Packages_UUID_Extract" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="383"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Transmissions" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3309"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Command" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3059"/>
+<sample t="5" lt="0" s="true" lb="JDBC Request_Sites" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="5133"/>
+<sample t="5" lt="0" s="true" lb="JDBC Request_fazzt_txMode" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="2320"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_fazzt_queues" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3939"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Transmissions_queueId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="16"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Transmissions_modeId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="15"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Ingest_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="153"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Transmissions_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="211"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Command_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="179"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_Packages_active" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="605"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_transmission_packageId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="272"/>
+<httpSample t="27" lt="27" s="true" lb="SM_Test_ingest-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1440">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="12" lt="12" s="true" lb="SM_Test_package-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="884">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="13" lt="13" s="true" lb="SM_Test_package-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1274">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="9" lt="9" s="true" lb="SM_Test_transmission-list-queue" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1564">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="9" lt="9" s="true" lb="SM_Test_transmission-list-mode" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1080">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="13" lt="13" s="true" lb="SM_Test_transmission-packages" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="834">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="16" lt="16" s="true" lb="SM_Test_transmission-locations" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="770">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="20" lt="20" s="true" lb="SM_Test_transmission-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1603">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="13" lt="13" s="true" lb="SM_Test_transmission-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1154">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="17" lt="17" s="true" lb="SM_Test_command-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1143">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="9" lt="9" s="true" lb="SM_Test_command-packages" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="326">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="16" lt="16" s="true" lb="SM_Test_command-locations" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="546">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="21" lt="21" s="true" lb="SM_Test_command-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1121">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="31" lt="31" s="true" lb="SM_Test_site-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="23904">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="15" lt="15" s="true" lb="SM_Test_site-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="600">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" lt="10" s="true" lb="SM_Test_group-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1467">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" lt="10" s="false" lb="SM_Test_ingest-submit" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="493">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="9" lt="9" s="false" lb="SM_Test_transmission-submit" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="431">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="102" lt="102" s="true" lb="SM_Test_command-submit" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="360">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="11" lt="11" s="false" lb="SM_Test_ingest-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="414">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="1026" lt="1026" s="true" lb="SM_Test_package-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="324">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="19" lt="19" s="false" lb="SM_Test_command-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="412">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="17" lt="17" s="false" lb="SM_Test_transmission-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="427">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="15" lt="15" s="false" lb="SM_Test_transmission-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="427">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="94" lt="94" s="true" lb="api-auth" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="424">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="40" lt="40" s="true" lb="api-auth" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="342">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="46" lt="18" s="true" lb="JDBC Request_Ingest" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="667"/>
+<sample t="13" lt="0" s="true" lb="JDBC Request_Packages" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="15284"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Packages_UUID_Extract" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="383"/>
+<sample t="5" lt="0" s="true" lb="JDBC Request_Transmissions" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3309"/>
+<sample t="4" lt="0" s="true" lb="JDBC Request_Command" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3059"/>
+<sample t="8" lt="0" s="true" lb="JDBC Request_Sites" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="5133"/>
+<sample t="4" lt="0" s="true" lb="JDBC Request_fazzt_txMode" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="2320"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_fazzt_queues" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3939"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Transmissions_queueId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="16"/>
+<sample t="0" lt="0" s="true" lb="JDBC Request_Transmissions_modeId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="15"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Ingest_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="153"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Transmissions_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="211"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Command_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="179"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Packages_active" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="568"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_transmission_packageId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="235"/>
+<httpSample t="17" lt="17" s="true" lb="SM_Test_ingest-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1497">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="4" lt="0" s="true" lb="JDBC Request_Ingest" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="667"/>
+<sample t="6" lt="1" s="true" lb="JDBC Request_Packages" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="15284"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Packages_UUID_Extract" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="383"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Transmissions" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3309"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Command" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3059"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_Sites" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="5133"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_fazzt_txMode" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="2320"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_fazzt_queues" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3939"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Transmissions_queueId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="16"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_Transmissions_modeId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="15"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Ingest_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="153"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Transmissions_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="211"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Command_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="179"/>
+<sample t="0" lt="0" s="true" lb="JDBC Request_Packages_active" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="568"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_transmission_packageId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="235"/>
+<httpSample t="15" lt="15" s="true" lb="SM_Test_ingest-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1440">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" lt="10" s="true" lb="SM_Test_package-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="884">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="13" lt="13" s="true" lb="SM_Test_package-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1278">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="8" lt="8" s="true" lb="SM_Test_transmission-list-queue" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1564">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="9" lt="9" s="true" lb="SM_Test_transmission-list-mode" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1080">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="11" lt="11" s="true" lb="SM_Test_transmission-packages" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="834">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="16" lt="16" s="true" lb="SM_Test_transmission-locations" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="770">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="20" lt="20" s="true" lb="SM_Test_transmission-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1603">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="12" lt="12" s="true" lb="SM_Test_transmission-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1154">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="11" lt="11" s="true" lb="SM_Test_command-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1143">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="9" lt="9" s="true" lb="SM_Test_command-packages" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="326">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="15" lt="15" s="true" lb="SM_Test_command-locations" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="546">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="33" lt="33" s="true" lb="SM_Test_command-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1129">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="34" lt="34" s="true" lb="SM_Test_site-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="23904">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="12" lt="12" s="true" lb="SM_Test_site-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="600">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" lt="10" s="true" lb="SM_Test_group-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1467">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="13" lt="13" s="false" lb="SM_Test_ingest-submit" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="493">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" lt="10" s="false" lb="SM_Test_transmission-submit" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="431">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="104" lt="104" s="true" lb="SM_Test_command-submit" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="360">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="11" lt="11" s="false" lb="SM_Test_ingest-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="414">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="1068" lt="1068" s="true" lb="SM_Test_package-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="324">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="19" lt="18" s="false" lb="SM_Test_command-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="412">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="17" lt="17" s="false" lb="SM_Test_transmission-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="427">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="16" lt="16" s="false" lb="SM_Test_transmission-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="427">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="53" lt="53" s="false" lb="api_auth" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="448">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="15" lt="15" s="false" lb="api_auth" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="366">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="50" lt="21" s="true" lb="JDBC Request_Ingest" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="667"/>
+<sample t="14" lt="0" s="true" lb="JDBC Request_Packages" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="15302"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Packages_UUID_Extract" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="383"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Transmissions" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3309"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_Command" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3059"/>
+<sample t="13" lt="0" s="true" lb="JDBC Request_Sites" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="5133"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_fazzt_txMode" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="2320"/>
+<sample t="3" lt="0" s="true" lb="JDBC Request_fazzt_queues" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3939"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Transmissions_queueId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="16"/>
+<sample t="0" lt="0" s="true" lb="JDBC Request_Transmissions_modeId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="15"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Ingest_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="153"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Transmissions_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="211"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Command_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="179"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Packages_active" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="531"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_transmission_packageId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="198"/>
+<httpSample t="17" lt="17" s="true" lb="SM_Test_ingest-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1497">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Ingest" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="667"/>
+<sample t="5" lt="1" s="true" lb="JDBC Request_Packages" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="15302"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Packages_UUID_Extract" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="383"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Transmissions" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3309"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Command" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3059"/>
+<sample t="4" lt="0" s="true" lb="JDBC Request_Sites" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="5133"/>
+<sample t="4" lt="0" s="true" lb="JDBC Request_fazzt_txMode" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="2320"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_fazzt_queues" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="3939"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Transmissions_queueId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="16"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Transmissions_modeId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="15"/>
+<sample t="2" lt="0" s="true" lb="JDBC Request_Ingest_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="153"/>
+<sample t="0" lt="0" s="true" lb="JDBC Request_Transmissions_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="211"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_Command_unsubmitted" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="179"/>
+<sample t="0" lt="0" s="true" lb="JDBC Request_Packages_active" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="531"/>
+<sample t="1" lt="0" s="true" lb="JDBC Request_transmission_packageId" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="198"/>
+<httpSample t="15" lt="15" s="true" lb="SM_Test_ingest-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1440">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" lt="10" s="true" lb="SM_Test_package-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="884">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="12" lt="12" s="true" lb="SM_Test_package-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1282">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="61" lt="61" s="true" lb="SM_Test_transmission-list-queue" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1564">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="63" lt="63" s="true" lb="SM_Test_transmission-list-mode" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1080">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="13" lt="13" s="true" lb="SM_Test_transmission-packages" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="834">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="108" lt="108" s="true" lb="SM_Test_transmission-locations" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="770">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="22" lt="22" s="true" lb="SM_Test_transmission-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1603">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="12" lt="12" s="true" lb="SM_Test_transmission-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1154">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="11" lt="11" s="true" lb="SM_Test_command-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1143">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="8" lt="8" s="true" lb="SM_Test_command-packages" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="326">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="16" lt="16" s="true" lb="SM_Test_command-locations" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="546">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="21" lt="21" s="true" lb="SM_Test_command-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1129">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="31" lt="31" s="true" lb="SM_Test_site-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="23904">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" lt="10" s="true" lb="SM_Test_site-status" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="600">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="84" lt="84" s="true" lb="SM_Test_group-list" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="1467">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="11" lt="11" s="false" lb="SM_Test_ingest-submit" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="493">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" lt="10" s="false" lb="SM_Test_transmission-submit" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="431">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="113" lt="113" s="true" lb="SM_Test_command-submit" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="360">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="13" lt="13" s="false" lb="SM_Test_ingest-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="414">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="1414" lt="1414" s="true" lb="SM_Test_package-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="324">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="18" lt="18" s="false" lb="SM_Test_command-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="412">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="17" lt="17" s="false" lb="SM_Test_transmission-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="427">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="18" lt="18" s="false" lb="SM_Test_transmission-delete" rc="200" rm="OK" tn="CinemaCMSAPITest 1-1" dt="text" by="427">
+  <assertionResult>
+    <name>Response Assertion-ResponseCode</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion-TextResponse</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected not to contain /error/</failureMessage>
+  </assertionResult>
+</httpSample>
+
+</testResults>

@@ -1,0 +1,4 @@
+TAP version 13
+1..1
+testCase: SM_Test_transmission-locations
+ok 0  - SM_Test_transmission-locations

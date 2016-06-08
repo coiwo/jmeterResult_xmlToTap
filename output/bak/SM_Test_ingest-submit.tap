@@ -1,0 +1,7 @@
+TAP version 13
+1..1
+testCase: SM_Test_ingest-submit
+name: Response Assertion-ResponseCode
+failure: false
+error: false
+ok 0  - SM_Test_ingest-submit

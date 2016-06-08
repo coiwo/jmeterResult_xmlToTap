@@ -16,6 +16,7 @@ import java.util.Properties;
 public class xmlToTap {
 	public static void main(String argv[]) throws IOException {
 		Properties prop = new Properties();
+		//String projectRoot ="C:/Users/yueran/Documents/apiTest/KenCastAPITest/CinemaCMSAPITest_PerformanceTest/";
 		prop.load(new FileInputStream("input/config.properties"));
 		String inputFile = prop.getProperty("inputFile");
 		String outputDir = prop.getProperty("outPutDir");
@@ -48,26 +49,32 @@ public class xmlToTap {
 	            		String resultLine ="";
 			        	NodeList nAssertionResults = eElement.getElementsByTagName("assertionResult");
 			        	for(int temp2 =0;temp2<nAssertionResults.getLength();temp2++){
+			        		System.out.println("temp2: "+temp2);
 					        System.out.println("name: " + eElement.getElementsByTagName("name").item(temp2).getTextContent());
 					        System.out.println("failure: " + eElement.getElementsByTagName("failure").item(temp2).getTextContent());
 					        System.out.println("error: " + eElement.getElementsByTagName("error").item(temp2).getTextContent());
 					        String failureCheck= eElement.getElementsByTagName("failure").item(temp2).getTextContent();
 					        String errorCheck= eElement.getElementsByTagName("error").item(temp2).getTextContent();
+					        boolean check1=failureCheck.equals("true")||errorCheck.equals("true");
+					        System.out.println("failureCheck.equals(\"true\")||errorCheck.equals(\"true\"):"+check1);
 					        if(failureCheck.equals("true")||errorCheck.equals("true")){
 					        	resultCheck=false;
 					        	//break;
 					        }
+					        System.out.println("resultCheck: "+resultCheck);
 					        if(resultCheck==false){
 					        	resultLine="not ok 1  ";
 					        }else if(resultCheck==true){
 					        	resultLine="ok 0  ";
 					        }
-					        out.println("name: " +eElement.getElementsByTagName("name").item(temp2).getTextContent());
-					        out.println("failure: " + eElement.getElementsByTagName("failure").item(temp2).getTextContent());
-					        out.println("error: " + eElement.getElementsByTagName("error").item(temp2).getTextContent());
-					        out.println(resultLine+"- "+eElement.getAttribute("lb"));
-					        out.close();
-			        	}
+
+			        	}					        
+			        	System.out.println("resultLine: "+resultLine);
+//				        out.println("name: " +eElement.getElementsByTagName("name").item(temp2).getTextContent());
+//				        out.println("failure: " + eElement.getElementsByTagName("failure").item(temp2).getTextContent());
+//				        out.println("error: " + eElement.getElementsByTagName("error").item(temp2).getTextContent());
+				        out.println(resultLine+"- "+eElement.getAttribute("lb"));
+				        out.close();
 
 		
 			        }
