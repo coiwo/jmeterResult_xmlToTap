@@ -1,4 +1,0 @@
-TAP version 13
-1..1
-testCase: SM_Test_ingest-submit
-not ok 1  - SM_Test_ingest-submit

@@ -1,7 +1,0 @@
-TAP version 13
-1..1
-testCase: Demo_api_auth
-name: Response Assertion-ResponseCode
-failure: false
-error: false
-ok 0  - Demo_api_auth

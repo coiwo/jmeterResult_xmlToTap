@@ -1,7 +1,0 @@
-TAP version 13
-1..1
-testCase: SM_Test_transmission-list-mode
-name: Response Assertion-ResponseCode
-failure: false
-error: false
-ok 0  - SM_Test_transmission-list-mode

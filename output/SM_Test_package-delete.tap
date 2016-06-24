@@ -1,4 +1,0 @@
-TAP version 13
-1..1
-testCase: SM_Test_package-delete
-ok 0  - SM_Test_package-delete

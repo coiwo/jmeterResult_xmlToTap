@@ -25,6 +25,7 @@ public class xmlToTap {
 	        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 	        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 	        Document doc = dBuilder.parse(fXmlFile); 
+	    //    String specChaFilter = "!@#%^&amp;*()_+-=|\\}[{]:&lt;,&gt;?/";
 	        //optional, but recommended
 	        //read this - http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
 	        doc.getDocumentElement().normalize(); 
@@ -38,12 +39,14 @@ public class xmlToTap {
 	                System.out.println("\nCurrent Element :" + nNode.getNodeName());
 			        if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 			        Element eElement = (Element) nNode; 
-			        System.out.println("testCase: " + eElement.getAttribute("lb"));
+			        String fileName_Original = eElement.getAttribute("lb");
+			        String fileName = fileName_Original.replaceAll("[^\\w\\s-]","");
+			        System.out.println("testCase: " + fileName);
 			      //create a tap file:
-	            		PrintWriter out = new PrintWriter(outputDir+eElement.getAttribute("lb")+".tap");
+	            		PrintWriter out = new PrintWriter(outputDir+fileName+".tap");
 	            		out.println("TAP version 13");
 	            		out.println("1..1");
-	            		out.println("testCase: " + eElement.getAttribute("lb"));
+	            		out.println("testCase: " + fileName);
 	            		//check return true /false:
 	            		boolean resultCheck=true;
 	            		String resultLine ="";
@@ -73,7 +76,7 @@ public class xmlToTap {
 //				        out.println("name: " +eElement.getElementsByTagName("name").item(temp2).getTextContent());
 //				        out.println("failure: " + eElement.getElementsByTagName("failure").item(temp2).getTextContent());
 //				        out.println("error: " + eElement.getElementsByTagName("error").item(temp2).getTextContent());
-				        out.println(resultLine+"- "+eElement.getAttribute("lb"));
+				        out.println(resultLine+"- "+fileName);
 				        out.close();
 
 		
